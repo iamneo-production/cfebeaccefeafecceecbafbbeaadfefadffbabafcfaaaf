@@ -53,12 +53,12 @@ public class GilletteTests {
         log.info("Hovered");
     }
 
-    // @When("^I choose \"([^\"]*)\" under \"([^\"]*)\" from the drop-down$")
-    // public void iChooseUnderFromTheDropDown(String option, String dropdown) {
-    //     ExtentTest test = reporter.createTest("click Brands", "Executing step 2");
-    //     homePage.clickBrands(driver, test);
-    //     log.info("Clicked MACH3");
-    // }
+    @When("^I choose \"([^\"]*)\" under \"([^\"]*)\" from the drop-down$")
+    public void iChooseUnderFromTheDropDown(String option, String dropdown) {
+        ExtentTest test = reporter.createTest("click Brands", "Executing step 2");
+        homePage.clickBrands(driver, test);
+        log.info("Clicked MACH3");
+    }
 
     
     // @Then("^I should see \"([^\"]*)\" under the products list$")
@@ -93,11 +93,11 @@ public class GilletteTests {
     //     sectionElement.click();
     // }
 
-    // @Then("^I should see \"([^\"]*)\" under the list of articles under styling$")
-    // public void iShouldSeeUnderTheListOfArticlesUnderStyling(String expectedText) {
-    //     WebElement articlesList = driver.findElement(By.xpath("//*[@id=\"tabItem_1\"]"));
-    //     String articlesListText = articlesList.getText();
-    // }
+    @Then("^I should see \"([^\"]*)\" under the list of articles under styling$")
+    public void iShouldSeeUnderTheListOfArticlesUnderStyling(String expectedText) {
+        WebElement articlesList = driver.findElement(By.xpath("//*[@id=\"tabItem_1\"]"));
+        String articlesListText = articlesList.getText();
+    }
 
     @After
     public void tearDown() {
