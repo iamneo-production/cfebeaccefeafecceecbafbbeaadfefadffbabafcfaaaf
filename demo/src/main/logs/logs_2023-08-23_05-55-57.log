@@ -1,0 +1,5 @@
+2023-08-23 05:56:04.089 [main] INFO  utils.LoggerHandler - Searched for Razor
+2023-08-23 05:56:04.570 [main] INFO  utils.LoggerHandler - Got the first result
+2023-08-23 05:56:09.095 [main] INFO  utils.LoggerHandler - Hovered
+2023-08-23 05:56:10.464 [main] INFO  utils.LoggerHandler - Clicked MACH3
+2023-08-23 05:56:11.193 [main] INFO  utils.LoggerHandler - Finding razor turbo
